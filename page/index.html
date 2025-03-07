@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EV Tax Calculator</title>
+    <title>EV-Steuerrechner</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -23,20 +23,28 @@
             margin: 10px 0;
             padding: 8px;
         }
+        .impressum {
+            margin-top: 20px;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+            font-size: 14px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h2>EV Tax Calculator</h2>
-        <label for="power">Power (kW):</label>
-        <input type="number" id="power" placeholder="Enter power in kW">
+        <h2>EV-Steuerrechner</h2>
+        <label for="power">Leistung (kW):</label>
+        <input type="number" id="power" placeholder="Leistung in kW eingeben">
 
-        <label for="weight">Weight (kg):</label>
-        <input type="number" id="weight" placeholder="Enter weight in kg">
+        <label for="weight">Gewicht (kg):</label>
+        <input type="number" id="weight" placeholder="Gewicht in kg eingeben">
 
-        <button onclick="calculateTax()">Calculate Tax</button>
+        <button onclick="calculateTax()">Steuer berechnen</button>
 
-        <h3>Monthly Tax: <span id="result">-</span></h3>
+        <h3>Monatliche Steuer: <span id="result">-</span></h3>
+        <h3>Jährliche Steuer (10% Rabatt): <span id="yearlyResult">-</span></h3>
     </div>
 
     <script>
@@ -89,7 +97,9 @@
             let power = parseFloat(document.getElementById('power').value) || 0;
             let weight = parseFloat(document.getElementById('weight').value) || 0;
             let tax = calculateEvTax(power, weight);
+            let yearlyTax = tax * 12 * 0.9; // 10% Rabatt auf die Jahressteuer
             document.getElementById('result').textContent = tax.toFixed(2) + ' EUR';
+            document.getElementById('yearlyResult').textContent = yearlyTax.toFixed(2) + ' EUR';
         }
     </script>
 </body>
