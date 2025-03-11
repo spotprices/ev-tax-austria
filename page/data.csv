@@ -1,0 +1,116 @@
+Marke;Modell;Leistung in kW/PS;Dauerleistung (kW/PS);min. Preis in Euro;Reichweite in km;Batteriekapazität in kWh
+Audi;e-tron 50 quattro;230/313;158/215;59.990;338;71 kWh
+Audi;e-tron 55 quattro;300/408;158/215;74.373;437;95 kWh
+Audi;e-tron S;370/503;226 /307;95.080;372;95 kWh
+Audi;e-tron S Sportback;370/503;226 /307;97.120;372;95 kWh
+Audi;e-tron Sportback 50;230/313;158/215;62.126;347;71 kWh
+Audi;e-tron Sportback 55;300/408;158/215;76.199;446;95 kWh
+Audi;e-tron GT quattro;350/476;140/190;105.212;487;93 kWh
+Audi;RS e-tron GT;440/598;142/193;142.734;472;93 kWh
+Audi;Q4 40 e-tron;150/204;70/95;54.950;520;82 brutto/77 netto
+Audi;Q4 35 e-tron;125/170;70/95;46.950;341;55 brutto
+Audi;Q4 45 e-tron quattro;195/265;77/105;57.110;490;82 brutto/77 netto
+Audi;Q4 50 e-tron quattro;220/299;77/105;61.950;;82 brutto/77 netto
+Audi;Q4 Sportback 40 e-tron;150/204;70/95;56.990;;82 brutto/77 netto
+Audi;Q4 Sportback 35 e-tron;125/170;70/95;48.990;;55 brutto
+Audi;Q4 Sportback 50 e-tron quattro;220/299;77/105;63.990;491;82 brutto/77 netto
+BMW;(i3) - Produktion eingestellt;125/170;75/102;;283;42,2 (37,9 netto)
+BMW;(i3s) - Produktion eingestellt;135/184;75/102;;283;42,2 (37,9 netto)
+BMW;iX3 M Sport;210/286;;59.990;461;80 brutto/74 netto
+BMW;i4 eDrive40;250/340;;59.950;585;83,9 brutto
+BMW;i4 M50;400/544;;71.720;523;83,9 brutto
+BMW;iX xDrive 40;240/326;;88.200;422;76,6 brutto/71 netto
+BMW;iX xDrive 50;385/523;;116.200;607;111,5 brutto/105,2 netto
+BMW;iX M60;455/619;;138.350;549;111,5 brutto /netto 105,2
+BMW;i7 xDrive60;400/544;;138.900;623;
+Citroën;ë-C4;100/136;57/77;36.040;350;50
+Citroën;ë-Berlingo;100/136;;38.280;280;50
+Citroën;ё-SpaceTourer;100/136;;59.990;230;50
+Citroën;ё-SpaceTourer;100/136;;67.280;330;75
+Cupra;Born 58;150/204;70/95;39.990;423;58 netto
+Dacia;Spring;33/44;;19.790;230;27,4 netto
+DS;DS3 Crossback e-tense;100/136;;39.190;320;50
+Fiat;500;70/95;;29.790;190;23,8
+Fiat;500;87/118;;30.990;320;42
+Ford;Mustang Mach-E Standard Range;198/269;;50.700;440;75,7 (68 netto)
+Ford;Mustang Mach-E Extended Range;216/294;;57.400;610;98,7 brutto/88 netto
+Ford;Mustang Mach-E AWD Standard Range;198/269;;56.800;400;75,7 brutto/68 netto
+Ford;Mustang Mach-E AWD Extended Range;258/351;;66.000;540;98,7 brutto/88 netto
+Ford;Mustang Mach-E GT;358/487;;74.800;500;98,7 brutto/88 netto
+Honda;Honda e;100/136;;36.790;222;35,5
+Honda;Honda e Advance;113/154;;39.790;222;35,5
+Hyundai;Ioniq Elektro;100/136;;35.190;311;38,3
+Hyundai;Kona Elektro;150/204;;42.990;484;64
+Hyundai;Kona Elektro;100/136;;38.990;305;39,2
+Hyundai / Ioniq;Ioniq 5;125/170;;45.990;;58,2
+Hyundai / Ioniq;Ioniq 5;160/218;;48.990;;72,6
+Hyundai / Ioniq;Ioniq 5;173/235;;51.990;;58,2
+Hyundai / Ioniq;Ioniq 5;225/305;;54.990;;72,6
+Jaguar;I-Pace EV400;294/400;;85.344;470;90
+Jaguar;I-Pace EV320;235/320;;59.900;470;90
+Kia;e-Niro Long Range;150/204;;42.390;455;64
+Kia;e-Soul Long Range;150/204;;38.390;452;64
+Kia;e-Niro;100/136;;37.990;289;39,2
+Kia;e-Soul;100/136;;34.990;276;39,2
+Kia;EV6 RWD;125/170;;43.990;;58
+Kia;EV6 RWD;168/229;;49.890;;77,4
+Kia;EV6 AWD;239/326;;53.790;;77,4
+Kia;EV6 GT Upgrade;430/585;;69.990;;77,4
+Mazda;MX-30 GTE;107/145;;34.990;200;35,5
+Mercedes;EQC 400 4MATIC;300/408;;70.290;432;80 (netto)
+Mercedes;EQA 250;140/190;;49.660;424;66,5 (netto)
+Mercedes;EQA 300 4matic;168/228;;54.380;430;66,5 (netto)
+Mercedes;EQA 350 4matic;215/292;;57.140;430;66,5 (netto)
+Mercedes;EQB 300 4matic;168/228;;56.600;;66,5 netto
+Mercedes;EQB 350 4matic;215/292;;59.360;;66,5 netto
+Mercedes;EQV 300 lang;150/204;;83.172;;90 netto
+Mercedes;EQV 300 extralang;150/204;;84.120;;90 netto
+MG;ZS EV max. Reichweite;115 kW;;33.090;440;44,5
+MG;ZS EV;130 kW;;29.090;320;
+Mini;Cooper SE;135/184;;34.000;232;28,9
+Nissan;Leaf;110/150;;29.900;270;40
+Nissan;Leaf e+;160/217;90;37.550;385;62 (60 netto)
+Opel;Corsa-e;100/136;;30.999;337;50
+Opel;Mokka-e;100/136;;35.669;340;50
+Peugeot;e-208;100/136;;32.720;340;50
+Peugeot;iOn (eingestellt);49/67;;21.990;150;14,5
+Peugeot;e-2008;100/136;;38.810;320;50
+Porsche;Taycan 4S;360/490;;109.341;464;93,4 brutto, 83,7 netto
+Porsche;Taycan Turbo;460/625;;156.257;452;93,4 brutto, 83,7 netto
+Porsche;Taycan Turbo S;460/625;;189.866;452;93,4 brutto, 83,7 netto
+Porsche;Taycan;240/326;;88.242;431;79,2 brutto, 71 netto
+Porsche;Taycan 4 Cross Turismo;280/380;;98.458;456;93,4 brutto, 83,7 netto
+Porsche;Taycan 4S Cross Turismo;360/490;;114.766;452;93,4 brutto, 83,7 netto
+Porsche;Taycan Turbo Cross Turismo;460/625;;157.728;452;93,4 brutto, 83,7 netto
+Porsche;Taycan Turbo S Cross Turismo;460/625;;191.309;419;93,4 brutto, 83,7 netto
+Renault;Zoe R110 Z.E. 40;80/108;51/70;32.560;319;41
+Renault;Kangoo Z.E.;44/60;;28.606;230;33
+Renault;Twizy 45;4/5,5;;11.680;90;6,1
+Renault;Twizy 80;13/18;8/11;12.690;100;6,1
+Renault;Zoe R110 Z.E. 50;80/108;51/70;35.860;395;52
+Renault;Zoe R135 Z.E. 50;100/135;51/70;38.560;385;52
+Renault;Twingo E-Tech Electric;60/81;31/42;21.840;190;21,4
+Škoda;ENYAQ iV 60;132/180;70/95;42.580;412;62 brutto / 58 netto
+Škoda;ENYAQ iV 80;150/204;70/95;49.400;535;82 brutto / 77 netto
+Škoda;ENQAY iV 80x;195/265;77/105;51.670;;
+Smart;EQ fortwo;60/82;41/56;25.770;159;17,6
+Smart;EQ forfour;60/82;41/56;27.760;153;17,6
+smart;EQ fortwo Cabrio;60/82;41/56;29.110;157;17,6
+Tesla;Model 3;;;56.190;491;
+Tesla;Model 3 Maximale Reichweite;;;59.990;614;
+Tesla;Model 3 Performance;;;65.690;547;
+Tesla;Model S;;;104.990;652;
+Tesla;Model S Plaid;;;138.990;600;
+Tesla;Model X;;;114.990;560;10
+Tesla;Model X Plaid;;;141.990;528;
+Tesla;Model Y Maximale Reichweite;;;59.990;533;
+Tesla;Model Y Performance;;;66.690;514;
+Volvo;XC40 Recharge Twin Motor;300/408;;53.430;418;78 brutto/75 netto
+Volvo;XC40 Recharge Single Motor;170/231;;47.550;423;69 brutto/67 netto
+VW;e-Up;61/83;40/55;22.590;260;32,3
+VW;ID.4 Pro Performance;150/204;70/95;48.890;522;77 netto
+VW;ID.3 Pro;107/145;70/95;40.340;425;58 netto
+VW;ID.3 Pro Performance;150/204;70/95;41.860;425;58 netto
+VW;ID.3 Pro S;150/204;70/95;45.510;549;77 netto
+VW;ID.4 GTX;220/299;77/105;55.690;478;77 netto
+VW;ID.4 Pro;128/174;70/95;46.820;;

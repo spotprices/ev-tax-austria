@@ -60,6 +60,7 @@
 
     <div class="source">
         <p>Berechnungslogik basierend auf: <a href="https://www.parlament.gv.at/dokument/XXVIII/I/34/fnameorig_1671562.html" target="_blank">Gesetzestext</a></p>
+        <p>Fahrzeugdaten teilweise geschätzt</p>
         <p>Besucher <script type="text/javascript" src="https://www.yogizaehler.de/Besucherzaehler/z_015.php?id=0101119759"></script></p>
     </div>
 
@@ -72,11 +73,57 @@
     </div>
 
     <script>
-        const models = {
-            tesla_model_y_sr_catl: { power: 88, weight: 1984, displayName: "Tesla Model Y Standard Range (CATL)" },
-            tesla_model_y_sr_byd: { power: 125, weight: 1984, displayName: "Tesla Model Y Standard Range (BYD)" },
-            tesla_model_y_lr_nca: { power: 190, weight: 1984, displayName: "Tesla Model Y Long Range" },
-        };
+const models = {
+    tesla_model_y_sr_catl: { power: 88, weight: 1984, displayName: "Tesla Model Y Standard Range (CATL)" },
+    tesla_model_y_sr_byd: { power: 125, weight: 1984, displayName: "Tesla Model Y Standard Range (BYD)" },
+    tesla_model_y_lr_nca: { power: 190, weight: 1984, displayName: "Tesla Model Y Long Range" },
+    
+    // Audi models
+    audi_etron_50_quattro: { power: 158, weight: 2445, displayName: "Audi e-tron 50 quattro" },
+    audi_etron_55_quattro: { power: 158, weight: 2565, displayName: "Audi e-tron 55 quattro" },
+    audi_etron_s: { power: 226, weight: 2730, displayName: "Audi e-tron S" },
+    audi_etron_s_sportback: { power: 226, weight: 2730, displayName: "Audi e-tron S Sportback" },
+    audi_etron_sportback_50: { power: 158, weight: 2445, displayName: "Audi e-tron Sportback 50" },
+    audi_etron_sportback_55: { power: 158, weight: 2565, displayName: "Audi e-tron Sportback 55" },
+    audi_etron_gt_quattro: { power: 140, weight: 2350, displayName: "Audi e-tron GT quattro" },
+    audi_rs_etron_gt: { power: 142, weight: 2420, displayName: "Audi RS e-tron GT" },
+    audi_q4_40_etron: { power: 70, weight: 2125, displayName: "Audi Q4 40 e-tron" },
+    audi_q4_35_etron: { power: 70, weight: 1965, displayName: "Audi Q4 35 e-tron" },
+    audi_q4_45_etron_quattro: { power: 77, weight: 2235, displayName: "Audi Q4 45 e-tron quattro" },
+    audi_q4_50_etron_quattro: { power: 77, weight: 2235, displayName: "Audi Q4 50 e-tron quattro" },
+    
+    // BMW models - Note: Many BMW models are missing Dauerleistung values in the CSV
+//    bmw_ix3_m_sport: { power: 210, weight: 2200, displayName: "BMW iX3 M Sport" }, // No Dauerleistung in CSV
+//    bmw_i4_edrive40: { power: 250, weight: 2100, displayName: "BMW i4 eDrive40" }, // No Dauerleistung in CSV
+//    bmw_i4_m50: { power: 400, weight: 2200, displayName: "BMW i4 M50" }, // No Dauerleistung in CSV
+    
+    // Citroën models
+    citroen_e_c4: { power: 57, weight: 1636, displayName: "Citroën ë-C4" },
+    
+    // Porsche models
+//    porsche_taycan_4s: { power: 360, weight: 2300, displayName: "Porsche Taycan 4S" }, // No Dauerleistung in CSV
+//    porsche_taycan_turbo: { power: 460, weight: 2300, displayName: "Porsche Taycan Turbo" }, // No Dauerleistung in CSV
+//    porsche_taycan_turbo_s: { power: 460, weight: 2300, displayName: "Porsche Taycan Turbo S" }, // No Dauerleistung in CSV
+    
+    // Volkswagen models
+    vw_id3_pro: { power: 70, weight: 1800, displayName: "VW ID.3 Pro" },
+    vw_id3_pro_performance: { power: 70, weight: 1800, displayName: "VW ID.3 Pro Performance" },
+    vw_id3_pro_s: { power: 70, weight: 1850, displayName: "VW ID.3 Pro S" },
+    vw_id4_pro: { power: 70, weight: 2000, displayName: "VW ID.4 Pro" }, // Assuming same as other ID.4 models
+    vw_id4_pro_performance: { power: 70, weight: 2000, displayName: "VW ID.4 Pro Performance" },
+    vw_id4_gtx: { power: 77, weight: 2100, displayName: "VW ID.4 GTX" },
+    
+    // Renault models
+    renault_zoe_r110_ze_40: { power: 51, weight: 1600, displayName: "Renault Zoe R110 Z.E. 40" },
+    renault_zoe_r110_ze_50: { power: 51, weight: 1600, displayName: "Renault Zoe R110 Z.E. 50" },
+    renault_zoe_r135_ze_50: { power: 51, weight: 1600, displayName: "Renault Zoe R135 Z.E. 50" },
+    renault_twingo_etech: { power: 31, weight: 1200, displayName: "Renault Twingo E-Tech Electric" },
+    
+    // Smart models
+    smart_eq_fortwo: { power: 41, weight: 1100, displayName: "Smart EQ fortwo" },
+    smart_eq_forfour: { power: 41, weight: 1200, displayName: "Smart EQ forfour" },
+    smart_eq_fortwo_cabrio: { power: 41, weight: 1100, displayName: "Smart EQ fortwo Cabrio" }
+};
 
         const modelSelect = document.getElementById('model');
 
