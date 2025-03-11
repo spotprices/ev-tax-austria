@@ -100,6 +100,38 @@ const models = {
     // Citroën models
     citroen_e_c4: { power: 57, weight: 1636, displayName: "Citroën ë-C4" },
     
+        
+    // Mercedes models (updated with new data, converted PS to kW)
+    mercedes_eqa_250_asm: { power: 79, weight: 2000, displayName: "Mercedes EQA 250 (ASM)" },
+    mercedes_eqa_250_psm: { power: 110, weight: 2000, displayName: "Mercedes EQA 250 (PSM)" },
+    mercedes_eqa_250_plus: { power: 95, weight: 2000, displayName: "Mercedes EQA 250+" },
+    mercedes_eqa_300_4matic: { power: 139, weight: 2100, displayName: "Mercedes EQA 300 4matic" },
+    mercedes_eqa_350_4matic: { power: 139, weight: 2100, displayName: "Mercedes EQA 350 4matic" },
+    mercedes_eqb_250_plus: { power: 95, weight: 2150, displayName: "Mercedes EQB 250+" },
+    mercedes_eqb_300_4matic: { power: 139, weight: 2200, displayName: "Mercedes EQB 300 4matic" },
+    mercedes_eqb_350_4matic: { power: 139, weight: 2200, displayName: "Mercedes EQB 350 4matic" },
+    mercedes_eqc_400_4matic: { power: 145, weight: 2500, displayName: "Mercedes EQC 400 4matic" },
+    mercedes_eqe_300: { power: 109, weight: 2300, displayName: "Mercedes EQE 300" },
+    mercedes_eqe_350: { power: 109, weight: 2300, displayName: "Mercedes EQE 350" },
+    mercedes_eqe_350_plus: { power: 109, weight: 2300, displayName: "Mercedes EQE 350+" },
+    mercedes_eqe_350_4matic: { power: 135, weight: 2400, displayName: "Mercedes EQE 350 4matic" },
+    mercedes_eqe_500_4matic: { power: 135, weight: 2400, displayName: "Mercedes EQE 500 4matic" },
+    mercedes_eqe_43_amg_4matic: { power: 135, weight: 2500, displayName: "Mercedes-AMG EQE 43 4matic" },
+    mercedes_eqe_53_amg_4matic_plus: { power: 185, weight: 2500, displayName: "Mercedes-AMG EQE 53 4matic+" },
+    mercedes_eqe_300_suv: { power: 109, weight: 2400, displayName: "Mercedes EQE 300 SUV" },
+    mercedes_eqe_350_plus_suv: { power: 109, weight: 2400, displayName: "Mercedes EQE 350+ SUV" },
+    mercedes_eqe_350_4matic_suv: { power: 135, weight: 2500, displayName: "Mercedes EQE 350 4matic SUV" },
+    mercedes_eqe_500_4matic_suv: { power: 135, weight: 2500, displayName: "Mercedes EQE 500 4matic SUV" },
+    mercedes_eqs_450_plus: { power: 109, weight: 2600, displayName: "Mercedes EQS 450+" },
+    mercedes_eqs_450_4matic: { power: 135, weight: 2700, displayName: "Mercedes EQS 450 4matic" },
+    mercedes_eqs_500_4matic: { power: 135, weight: 2700, displayName: "Mercedes EQS 500 4matic" },
+    mercedes_eqs_580_4matic: { power: 135, weight: 2700, displayName: "Mercedes EQS 580 4matic" },
+    mercedes_eqs_53_amg_4matic_plus: { power: 185, weight: 2800, displayName: "Mercedes-AMG EQS 53 4matic+" },
+    mercedes_eqt_200: { power: 51, weight: 1800, displayName: "Mercedes EQT 200" },
+    mercedes_eqv_250: { power: 70, weight: 2500, displayName: "Mercedes EQV 250" },
+    mercedes_eqv_300: { power: 70, weight: 2500, displayName: "Mercedes EQV 300" },
+    mercedes_g_580_electric: { power: 217, weight: 2900, displayName: "Mercedes G 580 Electric" },
+  
     // Porsche models
 //    porsche_taycan_4s: { power: 360, weight: 2300, displayName: "Porsche Taycan 4S" }, // No Dauerleistung in CSV
 //    porsche_taycan_turbo: { power: 460, weight: 2300, displayName: "Porsche Taycan Turbo" }, // No Dauerleistung in CSV
@@ -128,7 +160,14 @@ const models = {
     // Smart models
     smart_eq_fortwo: { power: 41, weight: 1100, displayName: "Smart EQ fortwo" },
     smart_eq_forfour: { power: 41, weight: 1200, displayName: "Smart EQ forfour" },
-    smart_eq_fortwo_cabrio: { power: 41, weight: 1100, displayName: "Smart EQ fortwo Cabrio" }
+    smart_eq_fortwo_cabrio: { power: 41, weight: 1100, displayName: "Smart EQ fortwo Cabrio" },
+
+    smart_1: { power: 74, weight: 1800, displayName: "Smart #1" },
+    smart_1_pulse: { power: 115, weight: 1900, displayName: "Smart #1 pulse" },
+    smart_1_brabus: { power: 115, weight: 1900, displayName: "Smart #1 BRABUS" },
+    smart_3: { power: 74, weight: 1800, displayName: "Smart #3" },
+    smart_3_pulse: { power: 115, weight: 1900, displayName: "Smart #3 pulse" },
+    smart_3_brabus: { power: 115, weight: 1900, displayName: "Smart #3 BRABUS" },
 };
 
         const modelSelect = document.getElementById('model');
